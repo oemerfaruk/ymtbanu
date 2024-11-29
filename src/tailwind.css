@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav-div{
+    @apply flex justify-around items-center py-4;
+}
+.nav-li{
+    @apply text-blue-900 text-xl hover:scale-125 hover:shadow;
+}
+.active-li{
+    @apply text-orange-600;
+}
